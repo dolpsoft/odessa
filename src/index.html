@@ -4,12 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Odessa is an anime streaming platform where you can watch anime online."> 
     <title>Odessa</title>
     <link href="../dist/output.css" rel="stylesheet">
+    <script async defer src="script.js"></script>
 </head>
-<body>
-    <h1 class="text-3xl font-bold underline">
-        Hello world!
-    </h1>
+<body class="m-0 bg-[#433d37]">
+
+ <div class="h-[100vh] bg-hero-pattern bg-cover bg-no-repeat bg-center" id="main">
+  <nav class="fixed flex justify-between items-center h-[5.5rem] w-full p-4 bg-[#433d37] bg-opacity-40 rounded-b-xl backdrop-blur-sm z-10">
+    <div>
+      <a href="index.html"><img src="../media/images/logo.png" alt="Odessa Logo" class="h-[3rem] w-[5.5rem]"></a>
+    </div>  
+    <div class="flex items-center">
+      <input type="text" placeholder="Search in Odessa..." class="w-[25rem] p-[0.6rem] ml-[10rem] border-[3px] border-[#9494949d] rounded-2xl bg-[#3a3530a7] text-[#949494] placeholder-[#949494] font-sans font-medium transition duration-100 focus:outline-none focus:ring focus:ring-[#ffffffaa]">
+      <img src="../media/icons/search-icon.svg" alt="Search Icon" class="relative right-[3rem] h-[3rem] w-[3rem] bg-[#94949] border-x-[3px] border-y-[3px] rounded-r-2xl border-[#7a7a7a] cursor-pointer">
+      </input>
+    </div>
+    <div class="flex mr-6">
+      <a href="animes-page.html"><div class="ml-6 px-4 py-2 text-[1.2rem] font-semibold rounded-lg text-[#949494] cursor-pointer hover:text-[#ffffffd2] hover:underline whitespace-nowrap">Animes</div></a>
+      <div class="ml-6 px-4 py-2 text-[1.2rem] font-semibold rounded-lg text-[#949494] cursor-pointer hover:text-[#ffffffd2] hover:underline whitespace-nowrap">Popular</div>
+      <div class="ml-6 px-4 py-2 text-[1.2rem] font-semibold rounded-lg text-[#949494] cursor-pointer hover:text-[#ffffffd2] hover:underline whitespace-nowrap">Join Us</div>
+      <div class="ml-6 px-4 py-2 text-[1.2rem] font-semibold rounded-lg text-[#949494] cursor-pointer hover:text-[#ffffffd2] hover:underline whitespace-nowrap">Donate</div>
+    </div>
+  </nav>
+    <div class="p-10 h-full">
+        <h1 class="inline-block text-7xl font-bold font-sans mt-[9rem] text-[#ffffff94] transition ease-in-out hover:text-[#ffffff]" name="name-of-shownanime" >Attack on Titan</h1>
+        <div class="w-[30rem] mt-2 pl-3 py-3  text-[white] text-lg border-l-8 border-y-[1px] bg-[#ffffff1f] border-[#ffffff3f] rounded-lg backdrop-blur-sm">
+          <span name="s-numb-of-shownanime">4 season |</span>
+          <span name="ep-numb-of-shownanime">88 episodes |</span>
+          <span name="type-of-shownanime">Action Anime</span>
+        </div>
+        <p class="text-2xl mr-[20rem] mt-3 p-4 text-white border-[0.2rem] border-[#ffffff3f] bg-[#ffffff1f] rounded-md backdrop-blur-md" name="desc-of-shownanime">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis ab esse maxime porro et fugiat atque perferendis velit quidem quae. Nesciunt molestias ipsum illum earum vitae voluptatem labore sint deleniti sunt qui quae beatae ea, facilis sed recusandae alias repellendus dolorum nemo quis dicta velit modi, excepturi aspernatur. Et, deserunt!!</p>
+        <button type="submit" class="py-1 pr-4 mt-4 border-[0.2rem] border-[#ffffff83] rounded-[10px] text-[#b8b8b8] text-lg bg-[#2726266d] font-semibold transition ease-in-out hover:border-[#ffffffd2] hover:text-[#ffffffd2]">
+          <img src="../media/icons/play-icon.svg"  alt="Play Icon" class="inline h-[3.5rem] w-[3.5rem]">
+          Watch Anime
+        </button>      
+    </div>
+ </div>
 </body>
 </html>

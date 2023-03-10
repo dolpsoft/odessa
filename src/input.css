@@ -1,3 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+@layer base{   
+    h1{
+        @apply font-sans
+    }
+    p{
+        @apply font-sans;
+        font-weight: 400;
+    }
+
+    button{
+        @apply font-sans;
+    }
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

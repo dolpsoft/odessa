@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odessa</title>
+    <link href="../dist/output.css" rel="stylesheet">
+</head>
+<body class="m-0 bg-[#272626]">
+  <div class="h-[100vh]" id="main">
+    <nav class="sticky top-0 flex justify-between items-center h-[5.5rem] w-full p-4 bg-[#433d37] bg-opacity-40 rounded-b-xl backdrop-blur-sm z-10">
+      <div>
+        <a href="index.html"><img src="../media/images/logo.png" alt="Odessa Logo" class="h-[3rem] w-[5.5rem] "></a>
+      </div>  
+      <div class="flex items-center">
+        <input type="text" placeholder="Search in Odessa..." class="w-[25rem] p-[0.6rem] ml-[10rem] border-[3px] border-[#9494949d] rounded-2xl bg-[#3a3530a7] text-[#949494] placeholder-[#949494] font-sans font-medium transition duration-100 focus:outline-none focus:ring focus:ring-[#ffffffaa]">
+        <img src="../media/icons/search-icon.svg" alt="Search Icon" class="relative right-[3rem] h-[3rem] w-[3rem] bg-[#94949] border-x-[3px] border-y-[3px] rounded-r-2xl border-[#7a7a7a] cursor-pointer">
+        </input>
+      </div>
+      <div class="flex mr-6">
+        <a href="animes-page.html"><div class="ml-6 px-4 py-2 text-[1.2rem] font-semibold rounded-lg text-[#949494] cursor-pointer hover:text-[#ffffffd2] hover:underline whitespace-nowrap">Animes</div></a>
+        <div class="ml-6 px-4 py-2 text-[1.2rem] font-semibold rounded-lg text-[#949494] cursor-pointer hover:text-[#ffffffd2] hover:underline whitespace-nowrap">Popular</div>
+        <div class="ml-6 px-4 py-2 text-[1.2rem] font-semibold rounded-lg text-[#949494] cursor-pointer hover:text-[#ffffffd2] hover:underline whitespace-nowrap">Join Us</div>
+        <div class="ml-6 px-4 py-2 text-[1.2rem] font-semibold rounded-lg text-[#949494] cursor-pointer hover:text-[#ffffffd2] hover:underline whitespace-nowrap">Donate</div>
+      </div>
+    </nav>
+
+    <div class="grid grid-cols-5 gap-y-16 gap-x-10 mt-12 px-10 text-white">
+      <div>
+        <div class="bg-[url('/media/images/aot-poster.jpg')] bg-cover bg-center flex flex-col items-center justify-between border-4 border-[#949494] h-[23rem] rounded-lg">
+           <div class="py-[0.5rem] bg-[#000000ac] text-center text-[#cbcbcb] font-bold w-full">
+             <span name="anime-type">Action / Fantasy</span>
+             <div class="text-white font-thin mt-1">
+              <span class="bg-[#00000035] border-2 rounded-md p-y-[0.15rem] px-1 ">DUB</span>
+              <span class=" border-2 rounded-md p-y-[0.15rem] px-1 ">SUB</span>
+             </div>
+            </div>
+           <div class="text-center text-[#a9a9a9] transition hover:text-[#f4f4f4] font-bold bg-[#000000ac] py-2 cursor-pointer rounded-md w-full">
+             <img src="../media/icons/play-icon.svg" alt="Play Icon" class="inline h-[3rem] w-[3rem] mb-1 hover:fill-white">
+              
+             <a href="anime-details.html"><span class="text-xl ">Watch Now</span></a>
+           </div> 
+        </div>
+        <div id="anime-name" class="mt-2 text-xl font-bold text-center" name="anime-name" >Attack on Titan</div>
+        <div class="text-center mt-2">
+            <span class="border-[3px] rounded-md ml-1 px-3 py-1 border-[#949494] bg-[#00000032] font-bold" name="season-numb">4 season</span> 
+            <span class="border-[3px] rounded-md ml-1 px-3 py-1 border-[#949494] bg-[#00000032] font-bold" name="ep-numb">88 episode</span>
+        </div>
+      </div>
+    </div>
+
+
+</body>
+</html>
